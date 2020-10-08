@@ -74,6 +74,8 @@
 /* Set Vazir font for body texts */
 body {
     font-family: Vazir, sans-serif;
+    /* Text align right for elements in the body */
+    text-align: right;
 }
 
 /* Set Vazir fonts for form elements in Html */
@@ -104,6 +106,13 @@ code,
 kbd,
 samp {
     direction: ltr;
+    /* left Text align for code related elements */
+    text-align: left;
 }
 
 /* -------left to right direction for code related elements begin------- */
+
+caption {
+    /* right align for caption */
+    text-align: right;
+}
