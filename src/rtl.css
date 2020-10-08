@@ -67,6 +67,8 @@
 /* Set Vazir font as default font for sans-serif components in bootstrap texts */
 :root {
     --font-family-sans-serif: Vazir, sans-serif;
+    /* right to left direction for root element */
+    direction: rtl;
 }
 
 /* Set Vazir font for body texts */
@@ -94,3 +96,14 @@ textarea {
 }
 
 /* -------Set Vazir font in bootstrap begin------- */
+
+/* -------left to right direction for code related elements begin------- */
+
+pre,
+code,
+kbd,
+samp {
+    direction: ltr;
+}
+
+/* -------left to right direction for code related elements begin------- */
