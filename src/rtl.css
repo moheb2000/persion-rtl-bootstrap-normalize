@@ -1,3 +1,4 @@
+/* -------font-face for Vazir font begin------- */
 @font-face {
     font-family: Vazir;
     src: url('fonts/Vazir.eot');
@@ -58,3 +59,38 @@
     font-weight: 100;
     font-style: normal;
 }
+/* -------font-face for Vazir font end------- */
+
+
+/* -------Set Vazir font in bootstrap begin------- */
+
+/* Set Vazir font as default font for sans-serif components in bootstrap texts */
+:root {
+    --font-family-sans-serif: Vazir, sans-serif;
+}
+
+/* Set Vazir font for body texts */
+body {
+    font-family: Vazir, sans-serif;
+}
+
+/* Set Vazir fonts for form elements in Html */
+input,
+button,
+select,
+optgroup,
+textarea {
+    font-family: Vazir, sans-serif;
+}
+
+/* Set Vazir font for tooltip bootstrap class */
+.tooltip {
+    font-family: Vazir, sans-serif;
+}
+
+/* Set Vazir font for popover bootstrap class */
+.popover {
+    font-family: Vazir, sans-serif;
+}
+
+/* -------Set Vazir font in bootstrap begin------- */
